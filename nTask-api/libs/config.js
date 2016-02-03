@@ -3,5 +3,5 @@ module.exports = app => {
   if (Boolean(env)) {
     return require(`./config.${env}.js`);
   }
-  return require('./config.development');
+  return require('./config.development.js');
 }
