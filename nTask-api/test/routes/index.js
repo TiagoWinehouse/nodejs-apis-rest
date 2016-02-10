@@ -4,9 +4,7 @@ describe("Routes: Index", () => {
       request.get("/")
         .expect(200)
         .end((err, res) => {
-          const expected = {
-            status: "NTask API"
-          };
+          const expected = {status: "NTask API"};
           expect(res.body).to.eql(expected);
           done(err);
         });

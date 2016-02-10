@@ -6,14 +6,11 @@ module.exports = {
     dialect: "sqlite",
     storage: "ntask.sqlite",
     logging: false,
-    sync: {
-      force: true
-    },
     define: {
       underscored: true
     }
   },
-  jwtSecret: "NTALK_TEST",
+  jwtSecret: "Nta$k-AP1-TEST",
   jwtSession: {
     session: false
   }
